@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Definición de sistemas digitales',
     descripcionCurso:
       'En este componente formativo se tratan temas relacionados con los sistemas electrónicos digitales, las normas aplicadas, los elementos relacionados y las condiciones de seguridad y salud en el trabajo.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
