@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="378" height="391" viewBox="0 0 378 391">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_8007" data-name="Rectángulo 8007" width="241.484" height="309.439" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_59288" data-name="Grupo 59288" transform="translate(-577.896 -5788)">
+    <rect id="Rectángulo_9065" data-name="Rectángulo 9065" width="378" height="391" rx="24" transform="translate(577.896 5788)" fill="#e8e8e8"/>
+    <g id="Grupo_57641" data-name="Grupo 57641" transform="translate(641.624 5823.205)">
+      <line id="Línea_154" data-name="Línea 154" y1="68.822" x2="0.93" transform="translate(152.59 233.591)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_104537" data-name="Trazado 104537" d="M85.045,17.8V42.331l8.37,5.753L78.535,51.8l16.741,3.72L78.535,61.464l13.02,3.361L78.535,69.8l6.51,3.434V175.963" transform="translate(67.545 15.311)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Trazado_104538" data-name="Trazado 104538" d="M15.535,118.383h21.9l4.139-9.3,5.58,18.6,3.036-18.6,3.925,18.6,3.434-18.6,4.9,18.6,2.944-9.3h39.245" transform="translate(13.361 93.817)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Grupo_57628" data-name="Grupo 57628">
+        <g id="Grupo_57627" data-name="Grupo 57627" clip-path="url(#clip-path)">
+          <circle id="Elipse_204" data-name="Elipse 204" cx="24.181" cy="24.181" r="24.181" transform="translate(118.179 188.02)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_155" data-name="Línea 155" y2="45.571" transform="translate(133.06 189.88)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_156" data-name="Línea 156" x1="18.601" y2="13.02" transform="translate(133.06 189.88)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_157" data-name="Línea 157" x2="22.321" y2="11.16" transform="translate(133.06 221.501)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_158" data-name="Línea 158" x1="14.88" transform="translate(118.179 212.2)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_159" data-name="Línea 159" y1="5.58" x2="3.72" transform="translate(140.5 303.344)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_160" data-name="Línea 160" y1="5.58" x2="3.72" transform="translate(147.94 303.344)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_161" data-name="Línea 161" y1="5.58" x2="3.72" transform="translate(155.38 303.344)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_162" data-name="Línea 162" x2="14.88" transform="translate(144.22 303.344)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <ellipse id="Elipse_205" data-name="Elipse 205" cx="8.37" cy="9.3" rx="8.37" ry="9.3" transform="translate(12.156 202.9)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <text id="_" data-name="+" transform="translate(16.399 213.481)" font-size="10" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">+</tspan></text>
+      <g id="Grupo_57630" data-name="Grupo 57630">
+        <g id="Grupo_57629" data-name="Grupo 57629" clip-path="url(#clip-path)">
+          <circle id="Elipse_206" data-name="Elipse 206" cx="16.741" cy="16.741" r="16.741" transform="translate(135.85 118.267)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Trazado_104539" data-name="Trazado 104539" d="M76.535,68.083H96.209L86.766,84.814Z" transform="translate(65.825 58.555)"/>
+          <line id="Línea_163" data-name="Línea 163" x2="16.741" transform="translate(143.29 144.308)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_164" data-name="Línea 164" x2="14.88" y2="14.88" transform="translate(172.121 141.518)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Línea_165" data-name="Línea 165" x2="14.88" y2="14.88" transform="translate(168.401 150.818)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Trazado_104540" data-name="Trazado 104540" d="M97.793,86.663l5.1-5.58,3.72,11.16Z" transform="translate(84.108 69.736)"/>
+          <path id="Trazado_104541" data-name="Trazado 104541" d="M96.793,92.663l5.1-5.58,3.72,11.16Z" transform="translate(83.248 74.896)"/>
+          <ellipse id="Elipse_207" data-name="Elipse 207" cx="8.37" cy="9.3" rx="8.37" ry="9.3" transform="translate(144.22 15.034)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <text id="_2" data-name="+" transform="translate(148.463 25.616)" font-size="10" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">+</tspan></text>
+      <g id="Grupo_57632" data-name="Grupo 57632">
+        <g id="Grupo_57631" data-name="Grupo 57631" clip-path="url(#clip-path)">
+          <text id="VCC" transform="translate(97.993 17.222)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">V</tspan><tspan y="0" letter-spacing="-0.02em">C</tspan><tspan y="0">C</tspan></text>
+        </g>
+      </g>
+      <text id="Rc" transform="translate(170.577 78.993)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0" letter-spacing="0.003em">R</tspan><tspan y="0">c</tspan></text>
+      <text id="_115" data-name="115" transform="translate(169.462 101.805)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">115</tspan></text>
+      <text id="D" transform="translate(171.56 134.035)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">D</tspan></text>
+      <text id="LED" transform="translate(186.318 141.714)" font-size="11" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">LED</tspan></text>
+      <g id="Grupo_57634" data-name="Grupo 57634">
+        <g id="Grupo_57633" data-name="Grupo 57633" clip-path="url(#clip-path)">
+          <path id="Trazado_104542" data-name="Trazado 104542" d="M76.545,74.546V29.209h-1.86V74.546h-4.65l5.58,10.587,6.51-10.587Z" transform="translate(60.234 25.121)" fill="#fbd214"/>
+        </g>
+      </g>
+      <text id="I" transform="translate(105.925 63.951)" fill="#fbd214" font-size="18" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">I</tspan></text>
+      <g id="Grupo_57636" data-name="Grupo 57636">
+        <g id="Grupo_57635" data-name="Grupo 57635" clip-path="url(#clip-path)">
+          <text id="BC337" transform="translate(182.09 234.031)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">BC337</tspan></text>
+          <path id="Trazado_104543" data-name="Trazado 104543" d="M69.295,107.5H23.958v1.86H69.295v4.65l10.587-5.58-10.587-6.51Z" transform="translate(20.605 87.653)" fill="#fbd214"/>
+        </g>
+      </g>
+      <text id="R" transform="translate(32.188 245.298)" font-size="18" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">R</tspan></text>
+      <text id="B" transform="translate(45.588 249.375)" font-size="11" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">B</tspan></text>
+      <text id="C" transform="translate(112.861 70.093)" fill="#fbd214" font-size="11" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">C</tspan></text>
+      <g id="Grupo_57638" data-name="Grupo 57638">
+        <g id="Grupo_57637" data-name="Grupo 57637" clip-path="url(#clip-path)">
+          <text id="Vb" transform="translate(0 253.797)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0" letter-spacing="-0.004em">V</tspan><tspan y="0">b</tspan></text>
+        </g>
+      </g>
+      <text id="_10.5K" data-name="10.5K" transform="translate(45.74 276.445)" font-size="20" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">10.5K</tspan></text>
+      <g id="Grupo_57640" data-name="Grupo 57640">
+        <g id="Grupo_57639" data-name="Grupo 57639" clip-path="url(#clip-path)">
+          <path id="Trazado_104544" data-name="Trazado 104544" d="M2.782,165.233l4.191-4.65H23.141l-3.147,5.58" transform="translate(2.393 138.111)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Trazado_104545" data-name="Trazado 104545" d="M10.79,148.616v22.259l-3.657,5.58" transform="translate(6.135 127.818)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <text id="I-2" data-name="I" transform="translate(42.709 180.227)" fill="#fbd214" font-size="18" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">I</tspan></text>
+      <text id="B-2" data-name="B" transform="translate(50.158 186.369)" fill="#fbd214" font-size="11" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0">B</tspan></text>
+    </g>
+  </g>
+</svg>

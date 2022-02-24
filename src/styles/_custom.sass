@@ -1,7 +1,17 @@
+.bg-blanco
+  background-color: #FFF
 .bg-gris
   background-color: #F2F2F2
+.bg-gris2
+  background-color: #F5F5F5  
+.bg-gris3
+  background-color: #707070  
+.bg-azul
+  background-color: #040735
 .bg-celeste
   background-color: #EAF7FD
+.bg-celeste2
+  background-color:   #EAF6FF
 .bg-primario1
   background-color: #0155A0
 .bg-primario2
@@ -18,6 +28,8 @@
   background-color: #70089B 
 .bg-contenido2
   background-color: #EEDAF6   
+.bg-contenido3
+  background-color: #F5DCFF  
 .bg-degrade-azul
   background: rgb(1,85,160)
   background: linear-gradient(180deg, rgba(1,85,160,1) 0%, rgba(1,43,80,1) 100%)
@@ -28,12 +40,32 @@
   background: rgb(72,174,160)
   background: linear-gradient(180deg, rgba(72,174,160,1) 0%, rgba(36,87,80,1) 100%)
 
+.tema1-fondo1
+  background: url('../assets/curso/tema1-fondo1.png')
+  background-position: 100% 46%
+  background-size: contain
+  background-repeat: no-repeat
+  background-color: #FFF !important
+.tema-1-fondo2  
+  background: url('../assets/curso/tema1-fondo2.png')
+  background-position: top
+  background-size: contain
+  background-repeat: no-repeat
+.tema2-rectangulo
+  background: url('../assets/curso/tema2-rectangulo.png')
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+  @media (max-width: 992px)  
+    background-size: cover    
 
 .borde-botones
   border: 1px solid #48AEA0
 .borde-botones-sin-top  
   border-top: 0px !important
   border: 1px solid #48AEA0
+.borde-morado 
+  border: 2px solid #DFA0F9 
 
 .z-1 
   z-index: 1 
@@ -50,10 +82,110 @@
 .pad-left 
   padding-left: 7.5rem
   @media (max-width: 992px)  
-    padding: 0     
+    padding: 0    
+.pad-left2
+  padding-left: 3rem
+  @media (max-width: 992px)  
+    padding: 0      
+.neg--right
+  margin-right: -7.5rem
+  @media (max-width: 992px)  
+    margin: 0  
+.pad-right 
+  padding-right: 7.5rem
+  @media (max-width: 992px)  
+    padding: 0         
+    
+
+.hover-tema1-3 .tarjeta-1 .bg-gris2:hover
+  background-color: #CEF1EC
+  transition-delay: 0.1s
+.hover-tema1-3 .tarjeta-2 .bg-gris2:hover
+  background-color: #EEDAF6
+  transition-delay: 0.1s
+.hover-tema1-3 .tarjeta-3 .bg-gris2:hover
+  background-color: #D6EDF9
+  transition-delay: 0.1s
+.hover-tema1-3 .tarjeta-4 .bg-gris2:hover
+  background-color: #C3E0FC    
+  transition-delay: 0.1s
+
+
+.img-infografica__card, .img-infografica-b__card
+  width: 450px
+  @media (max-width: 992px) 
+    width: 320px
+
+.tema4-slyder .slyder-f__slyde .tarjeta
+  height: 424px 
+.pasos-a__linea__esquina__linea
+  border-radius: 0px  
+.pasos-a__circle
+  width: 65px
+  height: 65px
+  min-width: 65px  
+.pasos-a.color-acento-botones .pasos-a__circle div
+  color: #ffffff
+  font-size: 32px
+.linea-morada
+  background: rgb(112,8,155)
+  background: linear-gradient(180deg, rgba(112,8,155,1) 0%, rgba(56,4,78,1) 100%)
+  width: 100%
+  height: 7px  
+  margin: 0 auto 
+
+.acordion .bg-botones1 .acordion__header .acordion__titulo h3
+  color: #FFF
+.acordion .acordion__activo.bg-botones1 .acordion__header .acordion__titulo h3
+  color: #12263F
+.acordion .acordion__activo.bg-botones1
+  background-color: #E8E8E8
+
+.tabs-c__tab--active span
+  font-weight: bold  
+
+.tema3-3-img-absolute
+  position: absolute
+  left: 6%
+  @media (max-width: 992px) 
+    position: inherit
+    left: 0%
 
 .imagen_girando
   animation: girar 6s linear infinite
 @keyframes girar
 	0%
     transform: rotate(360deg)  
+
+.contenedor-imagenes
+  position: relative  
+  width: auto  
+.banner-img1
+  position: absolute
+  -webkit-backface-visibility: hidden
+  animation: fade 15s ease-in infinite
+  animation-direction: alternate
+  width: 322px
+@keyframes fade
+  0%
+    opacity: 1
+  33%
+    opacity: 0
+  66%
+    opacity: 1
+  100%
+    opacity: 0
+.banner-img2
+  -webkit-backface-visibility: hidden
+  animation: fade2 15s ease-out infinite
+  animation-direction: alternate
+  width: 322px
+@keyframes fade2
+  0%
+    opacity: 0
+  33%
+    opacity: 1
+  66%
+    opacity: 0
+  100%
+    opacity: 1    

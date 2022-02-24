@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.tema1-fondo1.p-4.p-md-5
 
     .titulo-principal.color-secundario
       .titulo-principal__numero
@@ -38,6 +38,7 @@
  
     p.mb-5(data-aos="fade") Si nos referimos a los procesos de medición se encuentran algunos parámetros que se deben cumplir: niveles de tensión, potencia de consumo, emisión electromagnética.
 
+    
 
 
 
@@ -53,7 +54,7 @@
                   h4.mb-2 Árbol de normas IPC
                   p.text-small.mb-0 En la siguiente imagen se puede observar los estándares IPC.
                 .col-sm-auto
-                  a.boton.color-acento-botones.text-white(:href="obtenerLink('')" target="_blank")
+                  a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/CF14_3_arbol_IPC.pdf')" target="_blank")
                     span Ver Imagen
                     i.fas.fa-download
 
@@ -97,6 +98,57 @@
     #t_1_3
     .titulo-segundo.color-acento-contenido
       h2 1.3. Normas ISO
+
+    .row.justify-content-center.align-items-center.mb-5      
+      .col-md-6
+        .row.justify-content-center
+          .col-lg-12(data-aos="fade-right")
+            p <b>La Organización Internacional de Normalización (ISO)</b> es una organización independiente formada por 164 países miembros. Su principal objetivo es desarrollar estándares internacionales que faciliten el comercio mundial y ha generado cerca de 20.000 estándares, cubriendo desde productos manufacturados y tecnología hasta seguridad alimentaria, agricultura y salubridad, ayudando a las empresas a aumentar la productividad a la vez que minimizan los gastos, facilitando que nuevas compañías puedan entrar en nuevos mercados y ayudar en el desarrollo de un comercio global. Estos estándares también sirven para proteger a los usuarios finales de bienes y servicios.
+        .row.justify-content-center.neg--right.mb-4.pt-3
+          .col-lg-12.bg-degrade-azul.tarjeta.text-white.p-4
+            h5.mb-0.pad-right.pad-left2 Este tipo de normas orienta a las empresas y brinda pautas para la gestión, implementación y puesta en marcha de estos productos. En ellas se establecen los estándares de calidad que se deben cumplir a la hora de comercializarlos.  
+      .col-md-5.p-0.mb-md-0.mb-3.z-999
+        img(src='@/assets/curso/tema1-3-img1.svg' alt='Imagen decorativa')      
+    
+    
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-10.bg-gris
+        .row.justify-content-center
+          .col-md-10.py-3
+            p.mb-0 Las normas ISO son más aplicables al proceso de fabricación y es ahí precisamente donde más cuidado se debe tener. Si se trata de un proceso de producción en serie, es necesario aplicar la siguiente normatividad:
+    
+    p.mb-5(data-aos="fade") ISO 9001, TL9000 y ESD S20.20: estas normas ofrecen un sistema de gestión de calidad en  electrónica y  telecomunicaciones. También identifica requisitos específicos para proveedores del área. La norma ANSI/ESD S20.20 se centra en los componentes electrónicos utilizados en las telecomunicaciones y establece los controles para proteger a los elementos y dispositivos de las descargas electrostáticas.
+
+    .row.hover-tema1-3.tema-1-fondo2.justify-content-center.mb-5
+      .col-md-8.tarjeta.bg-primario1.text-white.mb-4.py-3
+        h5.text-center.mb-0 Adicionalmente será necesario verificar algunos estándares internacionales:
+      .row.justify-content-center.align-items-center.tarjeta-1.mb-3
+        .col-md-2.tarjeta.bg-botones1.py-4.mx-md-3
+          h4.text-white.text-center.mb-0 ISO 14001
+        .col-md-6.bg-gris2.tarjeta.py-4.px-4
+          p.mb-0 Contiene los requisitos necesarios para implantar un Sistema de Gestión ambiental.
+      .row.justify-content-center.align-items-center.tarjeta-2.mb-3
+        .col-md-2.tarjeta.bg-contenido1.py-4.mx-md-3
+          h4.text-white.text-center.mb-0 ISO 5001 
+        .col-md-6.bg-gris2.tarjeta.py-4.px-4
+          p.mb-0 Corresponde a un sistema de gestión electrónica muy importante, pues trata exclusivamente la gestión energética.
+      .row.justify-content-center.align-items-center.tarjeta-3.mb-3
+        .col-md-2.tarjeta.bg-secundario1.py-4.mx-md-3
+          h4.text-white.text-center.mb-0 OHSAS 18001 / ISO 45001 
+        .col-md-6.bg-gris2.tarjeta.py-4.px-4
+          p.mb-0 Aquí se implementa el sistema de gestión de la seguridad y salud en el trabajo, esta aplicación es necesaria para garantizar la salud de los trabajadores y, por consiguiente, la mejora de la productividad. 
+      .row.justify-content-center.align-items-center.tarjeta-4
+        .col-md-2.tarjeta.bg-primario1.py-4.mx-md-3
+          h4.text-white.text-center.mb-0 ISO 27001 
+        .col-md-6.bg-gris2.tarjeta.py-4.px-4
+          p.mb-0 Esta norma establece los  sistemas de gestión de la seguridad de la información. Busca en gran medida proteger los derechos de autor, pues muchos productos electrónicos son susceptibles de copias no autorizadas. Muchos de los artefactos que se usan diariamente en el hogar, poseen derechos de autor y parte del dinero de  la compra, será destinado a su creador.
+
+
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-md-10.bg-gris
+        .row.justify-content-center
+          .col-md-10.py-3
+            p.mb-0 Al igual que los estándares IEEE, las normas ISO son muy amplias y se debe tener la certeza de utilizar la norma adecuada para la aplicación en la implementación que se requiere.
 
 
 </template>
