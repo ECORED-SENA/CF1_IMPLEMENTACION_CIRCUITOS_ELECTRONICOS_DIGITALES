@@ -34,13 +34,41 @@
       .h3.text-center.mb-4(data-aos="fade-down") Normas de aceptabilidad
       BotonesB
 
-    p(data-aos="fade") <b>Adicionalmente,</b> puede ser necesario  consultar y aplicar otras normas, estas se aplican dependiendo de la naturaleza del producto desarrollado y que permitan el diseño de un producto amigable con el medio ambiente.
+    p(data-aos="fade") <b>Adicionalmente,</b> puede ser necesario consultar y aplicar otras normas, estas se aplican dependiendo de la naturaleza del producto desarrollado y que permitan el diseño de un producto amigable con el medio ambiente.
  
     p.mb-5(data-aos="fade") Si nos referimos a los procesos de medición se encuentran algunos parámetros que se deben cumplir: niveles de tensión, potencia de consumo, emisión electromagnética.
 
-    
-
-
+    .row.mb-5
+      .col-md-3.mb-4
+        .tarjetas-tema-1-1.tarjeta-1
+          section.tarjeta-verde
+            p.text-white Este estándar establece técnicas, relacionadas con el proceso de perforado y montaje superficial, así como la preparación de superficies. 
+          section.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj1.png" style="width:70px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC-7711/21
+      .col-md-3.mb-4
+        .tarjetas-tema-1-1.tarjeta-1
+          section.tarjeta-azul1
+            p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, Through-Hole Technology) huecos pasantes, (SMT, Surface-Mount technology) montaje superficial. 
+          section.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:70px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC 2221   
+      .col-md-3.mb-4.hover-columna(@mouseover="mostrarIndicador = false")
+        .indicador--click(v-if="mostrarIndicador")
+        .tarjetas-tema-1-1.tarjeta-1
+          section.tarjeta-azul2
+            p.text-white En ella se establecen las definiciones para la interconexión y encapsulados de circuitos electrónicos, necesarios para el montaje en las PCB, diseño de rutas y parámetros de componentes.
+          section.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj3.png" style="width:70px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC-T-50M     
+      .col-md-3
+        .tarjetas-tema-1-1.tarjeta-1
+          section.tarjeta-morada
+            p.text-white.p-line Requisitos para documentar los requerimientos de la PCB, ensamblajes y esquemas electrónicos, es posible que después de realizar algunas pruebas se deba documentar todo el proceso y entregar los resultados de los cálculos y mediciones, es norma establece los procedimientos para documentar estos procesos.
+          section.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj4.png" style="width:70px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC D-325                   
+      
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
@@ -162,6 +190,7 @@ export default {
   },
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

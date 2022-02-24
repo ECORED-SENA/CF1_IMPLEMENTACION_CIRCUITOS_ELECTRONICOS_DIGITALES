@@ -18,7 +18,7 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
-          img.banner-img1(:src="globalData.imagenBannerPrincipal")
+          img(:src="globalData.imagenBannerPrincipal")
           .imagen_flotante: img(src="@/assets/curso/banner1.svg")
           .imagen_rotada: img(src="@/assets/curso/banner2.svg")
           
