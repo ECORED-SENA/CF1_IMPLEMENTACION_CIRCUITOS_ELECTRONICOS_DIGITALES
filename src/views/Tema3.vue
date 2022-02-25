@@ -159,7 +159,7 @@
         .col-md-1
         .col-md-3.tema3-3-img-absolute
           img(src='@/assets/curso/tema3-3-img2.jpg' alt='Imagen decorativa')
-          p.bg-secundario1.text-white.text-center.py-2.mb-0 Los electrones en circulación calientan un conductor.
+          p.bg-secundario1.text-white.text-center.py-2.mb-0.px-3 Los electrones en circulación calientan un conductor.
       .row.tema2-rectangulo.tarjeta.justify-content-end.py-4.mb-4.mt-md-5
         .col-md-7
           p.text-white.mb-0 Otra característica sobresaliente y que permitió el desarrollo de la tecnología, es el hecho de poder manipularla y realizar tareas con ellas, por ejemplo, se puede controlar el flujo de electrones que circula por un conductor y dejarlo en un límite donde lo calienta sin dañarlo y utilizar esto para trabajos donde se requiera calor, ejemplo: plancha estufa, bombillo.

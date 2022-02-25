@@ -18,7 +18,7 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
-          img(:src="globalData.imagenBannerPrincipal")
+          img.imagen_banner(:src="globalData.imagenBannerPrincipal")
           .imagen_flotante: img(src="@/assets/curso/banner1.svg")
           .imagen_rotada: img(src="@/assets/curso/banner2.svg")
           
@@ -55,6 +55,9 @@ export default {
     background-position: 0% 50%
 
 
+.imagen_banner
+  width: 350px
+  margin: 0 auto
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
@@ -121,9 +124,9 @@ export default {
 .imagen_flotante
   animation: float 7s ease-in-out infinite
   position: absolute
-  top: 47%
-  left: -17%
-  width: 260px
+  top: 48%
+  left: -8%
+  width: 250px
 @keyframes float
 	0%
   	transform: translatey(0px)
@@ -135,9 +138,9 @@ export default {
 .imagen_rotada
   animation: rotate 4s linear infinite
   position: absolute
-  top: 75%
-  left: 49%
-  width: 65px
+  top: 74%
+  left: 48.5%
+  width: 60px
 @keyframes rotate
 	0%
     transform: rotate(360deg)

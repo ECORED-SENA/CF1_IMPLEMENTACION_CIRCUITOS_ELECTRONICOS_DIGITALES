@@ -30,8 +30,10 @@
       .col-md-7
         p.mb-0.text-white.px-md-3 En términos generales, toda empresa dedicada a la producción, sin importar si es pública o privada, debe implementar un sistema de seguridad y salud en el trabajo; y este consiste en el desarrollo de un proceso organizado y bien planificado para anticipar, reconocer, evaluar y controlar los riesgos que se puedan presentar y que afectan la seguridad y la salud del prsonal que labora.
       .col-md-4.contenedor-imagenes 
+        img.banner-img3(src='@/assets/curso/tema2-img-fondo.png' alt='Imagen decorativa')
         img.banner-img1(src='@/assets/curso/tema2-img-anim1.png' alt='Imagen decorativa')
         img.banner-img2(src='@/assets/curso/tema2-img-anim2.png' alt='Imagen decorativa')
+        
     
     p(data-aos="fade") Ahora bien, las condiciones de seguridad en el trabajo están referidas a cualquier aspecto del trabajo que derive en consecuencias negativas para la salud del trabajador; se deben tener en cuenta aspectos ambientales y tecnológicos, así como también las disposiciones de la organización.
 

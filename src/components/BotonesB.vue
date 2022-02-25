@@ -90,7 +90,7 @@ export default {
 
 .btns
   position: relative
-  height: 500px
+  height: 530px
   &__item
     position: absolute
     background-size: contain

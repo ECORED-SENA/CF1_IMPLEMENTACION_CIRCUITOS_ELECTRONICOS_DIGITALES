@@ -20,7 +20,8 @@
       .col-md-10
         .row.d-flex
           .col-md-2.bg-secundario1.py-4(data-aos="fade-right")
-            img(src='@/assets/curso/banner2.svg' alt='Imagen decorativa', style="width:70px; margin: 0 auto;")
+            .imagen_girando
+              img(src='@/assets/curso/banner2.svg' alt='Imagen decorativa', style="width:70px; margin: 0 auto;")
           .col-md-10.bg-celeste.py-4(data-aos="fade-left")
             p.mb-0 En medio de este desarrollo tecnológico, se estipularon condiciones necesarias para trabajar de forma segura en la manipulación de elementos electrónicos y las herramientas adecuadas para el análisis de las magnitudes físicas asociadas a estos sistemas. 
 

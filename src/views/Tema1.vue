@@ -12,7 +12,7 @@
 
     .row.justify-content-center.align-items-center
       .col-md-5.p-0.mb-md-0.mb-3.z-999
-        img(src='@/assets/curso/tema1-img1.svg' alt='Imagen decorativa')
+        img(src='@/assets/curso/tema1-img1.png' alt='Imagen decorativa')
       .col-md-6
         .row.justify-content-center.neg--left.mb-4.pt-3
           .col-lg-12.bg-degrade-azul.tarjeta.text-white.p-4
@@ -136,7 +136,7 @@
           .col-lg-12.bg-degrade-azul.tarjeta.text-white.p-4
             h5.mb-0.pad-right.pad-left2 Este tipo de normas orienta a las empresas y brinda pautas para la gestión, implementación y puesta en marcha de estos productos. En ellas se establecen los estándares de calidad que se deben cumplir a la hora de comercializarlos.  
       .col-md-5.p-0.mb-md-0.mb-3.z-999
-        img(src='@/assets/curso/tema1-3-img1.svg' alt='Imagen decorativa')      
+        img(src='@/assets/curso/tema1-3-img1.png' alt='Imagen decorativa')      
     
     
     .row.justify-content-center.mb-4(data-aos="fade-down")
@@ -150,22 +150,22 @@
     .row.hover-tema1-3.tema-1-fondo2.justify-content-center.mb-5
       .col-md-8.tarjeta.bg-primario1.text-white.mb-4.py-3
         h5.text-center.mb-0 Adicionalmente será necesario verificar algunos estándares internacionales:
-      .row.justify-content-center.align-items-center.tarjeta-1.mb-3
+      .row.justify-content-center.align-items-center.tema1-3-tarjeta-1.mb-3
         .col-md-2.tarjeta.bg-botones1.py-4.mx-md-3
           h4.text-white.text-center.mb-0 ISO 14001
         .col-md-6.bg-gris2.tarjeta.py-4.px-4
           p.mb-0 Contiene los requisitos necesarios para implantar un Sistema de Gestión ambiental.
-      .row.justify-content-center.align-items-center.tarjeta-2.mb-3
+      .row.justify-content-center.align-items-center.tema1-3-tarjeta-2.mb-3
         .col-md-2.tarjeta.bg-contenido1.py-4.mx-md-3
           h4.text-white.text-center.mb-0 ISO 5001 
         .col-md-6.bg-gris2.tarjeta.py-4.px-4
           p.mb-0 Corresponde a un sistema de gestión electrónica muy importante, pues trata exclusivamente la gestión energética.
-      .row.justify-content-center.align-items-center.tarjeta-3.mb-3
+      .row.justify-content-center.align-items-center.tema1-3-tarjeta-3.mb-3
         .col-md-2.tarjeta.bg-secundario1.py-4.mx-md-3
           h4.text-white.text-center.mb-0 OHSAS 18001 / ISO 45001 
         .col-md-6.bg-gris2.tarjeta.py-4.px-4
           p.mb-0 Aquí se implementa el sistema de gestión de la seguridad y salud en el trabajo, esta aplicación es necesaria para garantizar la salud de los trabajadores y, por consiguiente, la mejora de la productividad. 
-      .row.justify-content-center.align-items-center.tarjeta-4
+      .row.justify-content-center.align-items-center.tema1-3-tarjeta-4
         .col-md-2.tarjeta.bg-primario1.py-4.mx-md-3
           h4.text-white.text-center.mb-0 ISO 27001 
         .col-md-6.bg-gris2.tarjeta.py-4.px-4
