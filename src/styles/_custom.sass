@@ -176,34 +176,34 @@
   transform: scale(.97);
   transition: ease;
   transition-duration: .4s;
-.tarjeta-1:hover section:nth-child(2) img
+.tarjeta-1:hover .caras:nth-child(2) img
   transform: translateX(-7em) rotate(240deg)
   transition: ease;
   transition-duration: .4s
   margin: 0 !important
-.tarjeta-1:hover section:nth-child(2) h3
+.tarjeta-1:hover .caras:nth-child(2) h3
   transform: scale(0.5);
   opacity: 0;
   transition: ease;
   transition-duration: .3s;
-.tarjeta-1:hover section:nth-child(2) p
+.tarjeta-1:hover .caras:nth-child(2) p
   transform: translate3d(3em, 0em, 20em)
   opacity: 0
   transition: ease
   transition-duration: .3s
-.tarjeta-1:hover section:first-child 
+.tarjeta-1:hover .caras:first-child 
   opacity: 1
   top: 0
   transition: ease
   transition-duration: .4s
   transition-delay: .2s
-section 
+.caras 
   height: 100%
   display: flex
   flex-flow: column
   align-content: center
   justify-content: space-between
-section:first-child 
+.caras:first-child 
   position: absolute
   top: 100%
   margin: 0em
@@ -215,11 +215,9 @@ section:first-child
   flex-flow: column
   justify-content: center
   transition-duration: .4s
-section:first-child p 
+.caras:first-child p 
   margin: 0em 1.6em
   text-align: center
-section:first-child h3
-  margin: 2rem 0
 .tarjeta-verde 
   background-color: #48AEA0
 .tarjeta-azul1
@@ -228,10 +226,6 @@ section:first-child h3
   background-color: #0C8ED1
 .tarjeta-morada      
   background-color: #70089B
-section:first-child h3
-  font-size: 4em;
-  text-align: center;
-  font-weight: bold;
 .p-line
   line-height: 19px
 
