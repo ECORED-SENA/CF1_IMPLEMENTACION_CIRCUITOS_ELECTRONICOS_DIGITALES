@@ -138,7 +138,7 @@
       .col-md-10.bg-contenido3.py-4
         .row.justify-content-center
           .col-md-10
-            p.mb-0 varios fabricantes y lanzar una línea de productos con trabajos puntuales, en esta categoría entran los módulos, tales como, wifi, bluetooth, sistemas Arduino, RaspBerry, etc. 
+            p.mb-0 Varios fabricantes y lanzan una línea de productos con trabajos puntuales, en esta categoría entran los módulos, tales como, Wifi, Bluetooth, Sistemas Arduino, RaspBerry, etc. 
 
     Separador
 

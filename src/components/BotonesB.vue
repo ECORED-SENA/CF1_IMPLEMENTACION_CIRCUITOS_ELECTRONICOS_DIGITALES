@@ -14,7 +14,8 @@
     .btns__text.py-3.px-4(v-if="index === hover")  
       .col-md-3.col-6.mb-3
         img(:src="boton.icono", style="width: 55px")
-      p.mb-0 {{boton.contenido}}
+      p.mb-0 <b>{{boton.titulo}}</b> 
+        | {{boton.contenido}}
 
 
 </template>
@@ -33,8 +34,9 @@ export default {
         pos_x: '11.5%',
         pos_y: '2.3%',
         icono: require('@/assets/curso/tema1-botones-icono1.svg'),
+        titulo: 'IPC 600: aceptabilidad de circuitos impresos.',
         contenido:
-          'IPC 600 – Aceptabilidad de circuitos impresos. Esta norma aplica a los  diseñadores y establece los criterios de inspección de calidad visual, es la norma más difundida en la industria electrónica ya que está referida al  diseño, manufactura y mantenimiento en electrónica. Contiene apartados del  IPC JST 001. La norma más actualizada es la IPC A 610 G (IPC-A-610 en español, la letra «A» es de aceptación de calidad).',
+          'Esta norma aplica a los  diseñadores y establece los criterios de inspección de calidad visual, es la norma más difundida en la industria electrónica ya que está referida al  diseño, manufactura y mantenimiento en electrónica. Contiene apartados del  IPC JST 001. La norma más actualizada es la IPC A 610 G (IPC-A-610 en español, la letra «A» es de aceptación de calidad).',
       },
       {
         img: require('@/assets/curso/tema1-boton2_1.svg'),
@@ -42,8 +44,9 @@ export default {
         pos_x: '40%',
         pos_y: '2.5%',
         icono: require('@/assets/curso/tema1-botones-icono2.svg'),
+        titulo: 'IPC 610: aceptabilidad del ensamble electrónico.',
         contenido:
-          'IPC 610: Aceptabilidad del ensamble electrónico. Establece los parámetros  de calidad de circuitos impresos PCB, en ella se establecen los criterios para aceptar o rechazar los PCB y la soldadura de tarjetas o productos electrónicos, componentes de montaje superficial SMD y agujero pasante THT.',
+          'Establece los parámetros  de calidad de circuitos impresos PCB, en ella se establecen los criterios para aceptar o rechazar los PCB y la soldadura de tarjetas o productos electrónicos, componentes de montaje superficial SMD y agujero pasante THT.',
       },
       {
         img: require('@/assets/curso/tema1-boton3_1.svg'),
@@ -51,8 +54,9 @@ export default {
         pos_x: '68.5%',
         pos_y: '2.3%',
         icono: require('@/assets/curso/tema1-botones-icono3.svg'),
+        titulo: 'IPC 620: requisitos y aceptación para cables y conexiones.',
         contenido:
-          'IPC 620, Requisitos y aceptación para cables y conexiones. Establece los criterios visuales de aceptación, para el cableado. Si el diseño es de telecomunicaciones, también será necesario aplicar las normas ISO 9001, TL9000 y ESD S20.20.',
+          'Establece los criterios visuales de aceptación, para el cableado. Si el diseño es de telecomunicaciones, también será necesario aplicar las normas ISO 9001, TL9000 y ESD S20.20.',
       },
     ],
   }),

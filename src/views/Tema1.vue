@@ -49,7 +49,7 @@
       .col-md-3.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul1
-            p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, Through-Hole Technology) huecos pasantes, (SMT, Surface-Mount technology) montaje superficial. 
+            p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, <em>Through-Hole Technology</em>) huecos pasantes, (SMT, <em>Surface-Mount technology</em>) montaje superficial. 
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:70px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC 2221   
@@ -64,7 +64,7 @@
       .col-md-3
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-morada
-            p.text-white.p-line Requisitos para documentar los requerimientos de la PCB, ensamblajes y esquemas electrónicos, es posible que después de realizar algunas pruebas se deba documentar todo el proceso y entregar los resultados de los cálculos y mediciones, es norma establece los procedimientos para documentar estos procesos.
+            p.text-white.p-line Requisitos para documentar los requerimientos de la PCB, ensamblajes y esquemas electrónicos, es posible que después de realizar algunas pruebas se deba documentar todo el proceso y entregar los resultados de los cálculos y mediciones, la norma establece los procedimientos para documentar estos procesos.
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj4.png" style="width:70px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC D-325                   

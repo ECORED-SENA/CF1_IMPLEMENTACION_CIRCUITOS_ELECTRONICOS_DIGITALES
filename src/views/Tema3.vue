@@ -6,7 +6,7 @@
     .titulo-principal.color-secundario
       .titulo-principal__numero
         span 3
-      h1 Normatividad para electrónica digital
+      h1 Magnitudes físicas aplicadas a la electrónica digital
 
     p.mb-5(data-aos="fade") Una magnitud eléctrica está referida al movimiento de electrones y al fenómeno físico resultante, en el que se asocian unas variables que pueden ser medidas. Dentro de ellas se encuentran, la diferencia de potencial, la intensidad de corriente, la resistencia, capacitancia, inductancia y la frecuencia eléctrica.
 
@@ -87,6 +87,54 @@
           .row.justify-content-center(titulo="Parámetros de frecuencia eléctrica")
             .col-md-11
               p.mb-4 Este es precisamente el otro parámetro muy utilizado en los sistemas electrónicos digitales, la frecuencia eléctrica. Se mide en Hertz también en honor a su descubridor el físico alemán Heinrich Rudolf Hertz. Se refiere a cuántas veces cambia un parámetro de en la unidad de tiempo, para el caso de los sistemas digitales se refiere más que todo a cuantas instrucciones por segundo procesa el dispositivo electrónico. La siguiente tabla muestra esta relación en los primeros procesadores.
+              .tabla-a.color-acento-botones.mb-5 
+                table
+                  thead.bg-botones1  
+                    tr
+                      th Microprocesador
+                      th Frecuencia
+                  tbody.bg-blanco.text-center
+                    tr.mb-0
+                      td 4040
+                      td 1 Mhz
+                    tr.mb-0
+                      td 8008
+                      td 1 Mhz  
+                    tr.mb-0
+                      td 8080
+                      td 2 Mhz 
+                    tr.mb-0
+                      td 8085
+                      td 2 Mhz
+                    tr.mb-0
+                      td 8088
+                      td 5 Mhz
+                    tr.mb-0
+                      td 80286
+                      td 10 Mhz
+                    tr.mb-0
+                      td 80386
+                      td 33 Mhz
+                    tr.mb-0
+                      td 80486
+                      td 66 Mhz
+                    tr.mb-0
+                      td Pentium
+                      td 66 Mhz
+                    tr.mb-0
+                      td Pentium II
+                      td 120 Mhz
+                    tr.mb-0
+                      td Pentium MMX
+                      td 200 Mhz
+                    tr.mb-0
+                      td Celeron
+                      td 333 Mhz
+                    tr.mb-0
+                      td Pentium IV
+                      td 1400 Mhz                    
+                                          
+
 
     Separador
 
@@ -112,7 +160,7 @@
                 h4 Diferencia de potencial eléctrico
                 p Es la fuerza con la que los electrones se mueven a través de un conductor eléctrico y definida en una sola palabra “fuerza”. Normalmente está contenida en un elemento, como es el caso de una pila o batería, o una fuente de poder, para nuestro uso será siempre necesario transformar una forma de energía a diferencia de potencial.
                 p Un ejemplo de ello es la energía hidráulica, contenida en forma de energía potencial en una agua estancada a una altura determinada, al liberarla y hacerla pasar por una turbina, se convierte esa rotación, en electricidad utilizando el principio del dinamo. También en un hidrocarburo que al quemarse libera la energía contenida en él. Existen muchas formas de energía, unas más limpias que otras, pero un análisis permite determinar, que todas ellas son originadas por el Sol, esa es nuestra mayor fuente de energía.
-          .py-3.py-md-4(titulo="Diferencia de potencial eléctrico")
+          .py-3.py-md-4(titulo="La intensidad de corriente eléctrica ")
             .row.justify-content-center
               .col-md-5
                 figure
@@ -127,7 +175,7 @@
                   img(src='@/assets/curso/tema3-3-acord3.jpg', alt='Resistencia eléctrica')
               .col-md-5.mb-4.mb-md-0
                 h4 Resistencia eléctrica
-                p Es el número de veces que cambia un parámetro de una magnitud eléctrica.
+                p Es la fuerza de oposición ejercida por el conductor al paso del electrón. Definida en una sola palabra “oposición”.
           .py-3.py-md-4(titulo="Frecuencia eléctrica ")
             .row.justify-content-center
               .col-md-5
@@ -151,7 +199,7 @@
       .col-md-10.bg-botones1.borde-botones-sin-top
         .row.justify-content-center
           .col-md-10.py-3.text-white
-            p.mb-0 Una de las características más importantes de las magnitudes eléctricas es que pueden ser cuantificables y medidas. Esto permite desarrollar sistemas con análisis previo y predecir comportamientos; para el caso de los circuitos digitales, el proceso se simplifica aún más, ya que lo que se debe predecir es uno de dos estados posibles.
+            p.mb-0 Una de las características más importantes de las magnitudes eléctricas es que pueden ser cuantificables y medibles. Esto permite desarrollar sistemas con análisis previo y predecir comportamientos; para el caso de los circuitos digitales, el proceso se simplifica aún más, ya que lo que se debe predecir es uno de dos estados posibles.
 
     
     .row
