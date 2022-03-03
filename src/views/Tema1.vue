@@ -38,37 +38,58 @@
  
     p.mb-5(data-aos="fade") Si nos referimos a los procesos de medición se encuentran algunos parámetros que se deben cumplir: niveles de tensión, potencia de consumo, emisión electromagnética.
 
-    .row.mb-5
-      .col-md-3.mb-4
+    .row.mb-3
+      .col-md-4.col-6.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-verde
             p.text-white Este estándar establece técnicas, relacionadas con el proceso de perforado y montaje superficial, así como la preparación de superficies. 
           .caras.justify-content-center
-            img.mb-4(src="@/assets/curso/tema1-1-tarj1.png" style="width:70px; margin: 0 auto")
+            img.mb-4(src="@/assets/curso/tema1-1-tarj1.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC-7711/21
-      .col-md-3.mb-4
+      .col-md-4.col-6l.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul1
             p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, <em>Through-Hole Technology</em>) huecos pasantes, (SMT, <em>Surface-Mount technology</em>) montaje superficial. 
           .caras.justify-content-center
-            img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:70px; margin: 0 auto")
+            img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC 2221   
-      .col-md-3.mb-4.hover-columna(@mouseover="mostrarIndicador = false")
+      .col-md-4.col-6.mb-4.hover-columna(@mouseover="mostrarIndicador = false")
         .indicador--click(v-if="mostrarIndicador")
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul2
             p.text-white En ella se establecen las definiciones para la interconexión y encapsulados de circuitos electrónicos, necesarios para el montaje en las PCB, diseño de rutas y parámetros de componentes.
           .caras.justify-content-center
-            img.mb-4(src="@/assets/curso/tema1-1-tarj3.png" style="width:70px; margin: 0 auto")
+            img.mb-4(src="@/assets/curso/tema1-1-tarj3.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC-T-50M     
-      .col-md-3
+      .col-md-4.col-6.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-morada
             p.text-white.p-line Requisitos para documentar los requerimientos de la PCB, ensamblajes y esquemas electrónicos, es posible que después de realizar algunas pruebas se deba documentar todo el proceso y entregar los resultados de los cálculos y mediciones, la norma establece los procedimientos para documentar estos procesos.
           .caras.justify-content-center
-            img.mb-4(src="@/assets/curso/tema1-1-tarj4.png" style="width:70px; margin: 0 auto")
-            h3.color-acento-botones.text-center IPC D-325                   
-      
+            img.mb-4(src="@/assets/curso/tema1-1-tarj4.png" style="width:60px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC D-325      
+      .col-md-4.col-6.mb-4
+        .tarjetas-tema-1-1.tarjeta-1
+          .caras.tarjeta-verde
+            p.text-white Requisitos genéricos para el diseño SMD y estándar para el diseño de las pistas de soldadura, esta norma es muy importante ya que establece las reglas de diseño para los conductores en la placa, además en su versión digital, incluye una calculadora que facilita la creación de las pistas, indicando grosor, tamaño y otros parámetros.
+          .caras.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj1.png" style="width:60px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC-7351B
+      .col-md-4.col-6.mb-4
+        .tarjetas-tema-1-1.tarjeta-1
+          .caras.tarjeta-azul1
+            p.text-white Guía para el diseño de PCB  utilizadas en radiofrecuencia y microondas. Cuando el equipo electrónico incluye radiofrecuencia, es necesario un tratamiento especial, esta norma establece las reglas para garantizar un funcionamiento confiable en este tipo de dispositivos.
+          .caras.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:60px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC-2252
+      .col-md-12.col-11.mb-4
+        .tarjetas-tema-1-1.tarjeta-1
+          .caras.tarjeta-azul2
+            p.mb-3.text-white Guía de diseño para el empaquetado de circuitos electrónicos de alta velocidad. Los circuitos de alta velocidad, también están relacionados con la frecuencia, pero en este caso está referida al funcionamiento interno de un chip, es así como un procesador o una memoria, están dentro de esta categoría, por lo tanto, el empaquetado o carcaza del componente debe cumplir con unos estándares para evitar pérdida de datos por mal montaje y por consiguiente mal funcionamiento del producto donde se utilice.
+            p.text-white En algunos componentes se produce calentamiento, por lo que será necesario la implementación de un sistema de refrigeración; este sistema no debe interferir en el buen funcionamiento del dispositivo, será necesario efectuar algunas mediciones para verificar que los valores están dentro del rango permitido por el fabricante, estas mediciones incluyen temperatura al componente y su frecuencia de operación.
+          .caras.justify-content-center
+            img.mb-4(src="@/assets/curso/tema1-1-tarj3.png" style="width:60px; margin: 0 auto")
+            h3.color-acento-botones.text-center IPC 2251          
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
@@ -95,30 +116,28 @@
 
     p.mb-4(data-aos="fade") Las normas IEEE (Institute of Electrical and Electronic - Instituto de Ingenieros Eléctricos y Electrónicos), son el resultado de la unión del trabajo de compañías dedicadas a la ingeniería y a la ciencia a nivel mundial. En la siguiente figura se evidencia su trayectoria.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-md-10
         .h4.mb-2 Figura 1
-        .row.borde-botones
-          h4.text-center.text-white.bg-botones1.py-1 Estándares IEEE para redes inalámbricas
-          .row.justify-content-center
-            .col-md-10.py-4
-              figure
-                img(src='@/assets/curso/tema1-fig1.svg', alt='Estándares IEEE para redes inalámbricas')
-
-    .row.justify-content-center.mb-0
-      .col-md-10
-        .h4.mb-2 Figura 2
         .row.borde-botones
           h4.text-center.text-white.bg-botones1.py-1 Institute of Electrical and Electronic
           .row.justify-content-center
             .col-md-10.py-3
               figure
                 img(src='@/assets/curso/tema1-fig2.svg', alt='Estándares IEEE para redes inalámbricas')
-    .row.justify-content-center
-      .col-md-10.bg-gris.borde-botones-sin-top
-        .row.justify-content-center
-          .col-md-10.py-3
-            p.mb-0 Los estándares IEEE son muy amplios, pues existen tantas normas que no es práctico citarlas en este documento, se debe tener claridad sobre lo que se quiere implementar y consultar la norma apropiada, tal como se muestra en la siguiente figura. 
+              p.text-center Cada estándar representa a la tecnología optimizada para distintas necesidades  
+
+    p.mb-4(data-aos="fade") Los estándares IEEE son muy amplios, pues existen tantas normas que no es práctico citarlas en este documento, se debe tener claridad sobre lo que se quiere implementar y consultar la norma apropiada, tal como se muestra en la siguiente figura. 
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .h4.mb-2 Figura 2
+        .row.borde-botones
+          h4.text-center.text-white.bg-botones1.py-1 Estándares IEEE para redes inalámbricas
+          .row.justify-content-center
+            .col-md-10.py-4
+              figure
+                img(src='@/assets/curso/tema1-fig1.svg', alt='Estándares IEEE para redes inalámbricas')
 
 
     Separador
