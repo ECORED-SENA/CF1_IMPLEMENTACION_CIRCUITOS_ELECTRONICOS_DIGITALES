@@ -231,10 +231,10 @@ export default {
         'Boole, G. (2009). The Mathematical Analysis of Logic: Being an Essay Towards a Calculus of Deductive Reasoning (Cambridge Library Collection - Mathematics). Cambridge University Press.',
       tipo: 'Libro',
       link:
-        'https://www.cambridge.org/core/books/mathematical-analysis-of-logic/BF7CDDC37F3F4FC698CEEE5F2FA0270Cs',
+        'https://www.cambridge.org/core/books/mathematical-analysis-of-logic/BF7CDDC37F3F4FC698CEEE5F2FA0270C',
     },
     {
-      texto: 'Isagén. (2012). Cómo se genera la energía. [Video]. YouTube.',
+      texto: 'Isagen. (2012). Cómo se genera la energía. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YWEXLSjaYf0',
     },
@@ -242,7 +242,7 @@ export default {
       texto:
         'Transelec S. A. (2020). El viaje de la electricidad. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=YWEXLSjaYf0',
+      link: 'https://www.youtube.com/watch?v=MDt1BQM3bP0',
     },
   ],
   creditos: {
