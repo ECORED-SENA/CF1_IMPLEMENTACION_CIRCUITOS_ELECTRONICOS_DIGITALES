@@ -42,7 +42,7 @@
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="fade-down")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/ls-pANyapho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h5 Todos los requerimientos para la implementación de elementos de protección personal en los lugares de trabajo para un ambiente saludable se encuentran contemplados en la Ley 9 de enero 24 de 1979 (título III, artículos 122 a 124) y en la Resolución 2400 de mayo 22 de 1979 (título IV, capítulo II, artículos 176 a 201).
 

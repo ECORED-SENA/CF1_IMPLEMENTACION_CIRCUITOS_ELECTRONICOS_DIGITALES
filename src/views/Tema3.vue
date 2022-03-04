@@ -217,7 +217,7 @@
           p Un análisis que permite determinar la importancia de estos fenómenos físicos en nuestra vida cotidiana es el recorrido de la energía eléctrica, desde su generación hasta que llega a nuestras casas en forma de electricidad y le damos un trabajo útil. El siguiente pódcast explica un poco más acerca de este proceso.
           .wrap-player
             audio(controls='')
-              //source(src='../../public/downloads/.mp3' type='audio/mp3')
+              source(src='../../public/downloads/Importancia_de_estos_fenomenos_fisicos.mp3' type='audio/mp3')
               |  Your browser does not support the audio tag   
         .col-md-1
                
