@@ -94,7 +94,7 @@ export default {
 
 .btns
   position: relative
-  height: 530px
+  height: 535px
   &__item
     position: absolute
     background-size: contain
@@ -109,10 +109,8 @@ export default {
     border-radius: 15px
     width: 440px
     z-index: 100
-    line-height: 1.2em
+    height: 295px
     transform: translate(-50%)
-    p
-      line-height: 1.2em
 @media (max-width: $bp-max-md)
   .btns__item
     width: 3.5% !important
@@ -136,4 +134,9 @@ export default {
     left: 90%
   .btns_item--2 .btns__text
     left: 10%
+@media (min-width: $bp-min-xxl)
+  .btns
+    height: 575px
+    &__text
+      height: 295px
 </style>

@@ -138,7 +138,7 @@
       .col-md-10.bg-contenido3.py-4
         .row.justify-content-center
           .col-md-10
-            p.mb-0 Varios fabricantes y lanzan una línea de productos con trabajos puntuales, en esta categoría entran los módulos, tales como, Wifi, Bluetooth, Sistemas Arduino, RaspBerry, etc. 
+            p.mb-0 Varios fabricantes lanzan una línea de productos con trabajos puntuales, en esta categoría entran los módulos, tales como, <em>Wifi, Bluetooth, Sistemas Arduino, RaspBerry</em>, etc. 
 
     Separador
 
@@ -155,6 +155,7 @@
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
+        p.mb-2 <b>Figura 7.</b> Características        
         figure
           img(src='@/assets/curso/tema4-2-infog.svg', alt='Características')
 
@@ -165,29 +166,33 @@
     .titulo-segundo.color-acento-contenido
       h2 4.3. Funcionamiento
 
-    p.mb-5(data-aos="fade") Los dispositivos electrónicos digitales basan su funcionamiento en la electrónica, puntualmente en el funcionamiento del transistor como un switch, es decir que el transistor puede usarse como apagado o encendido, representando los dos estados de la lógica booleana. Integrando varios dispositivos se puede ir armando los dispositivos que representan la lógica booleana, tal como se representa a continuación.         
+    p.mb-5(data-aos="fade") Los dispositivos electrónicos digitales basan su funcionamiento en la electrónica, puntualmente en el funcionamiento del transistor como un <em>switch</em>, es decir que el transistor puede usarse como apagado o encendido, representando los dos estados de la lógica booleana. Integrando varios dispositivos se puede ir armando los dispositivos que representan la lógica booleana, tal como se representa a continuación.         
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-3.mb-4
-        .bg-degrade-morado.tarjeta.py-4.mb-2
-          h4.mb-0.text-white.text-center Hoja de datos
-        figure
-          img(src='@/assets/curso/tema4-3-tarj1.svg', alt='Hoja de datos')  
-      .col-md-3.mb-4
-        .bg-degrade-azul.tarjeta.py-4.mb-2
-          h4.mb-0.text-white.text-center Transistor como switch
-        figure
-          img(src='@/assets/curso/tema4-3-tarj2.svg', alt='Transistor como switch')   
-      .col-md-3
-        .bg-degrade-verde.tarjeta.py-4.mb-2
-          h4.text-white.mb-0.text-center Circuito físico    
-        figure
-          img(src='@/assets/curso/tema4-3-tarj3.svg', alt='Circuito físico ')   
+      .col-md-9
+        p.mb-3 <b>Figura 8.</b> Funcionamiento del transistor  
+      .row.justify-content-center  
+        .col-md-3.mb-4
+          .bg-degrade-morado.tarjeta.py-4.mb-2
+            h4.mb-0.text-white.text-center Hoja de datos
+          figure
+            img(src='@/assets/curso/tema4-3-tarj1.svg', alt='Hoja de datos')  
+        .col-md-3.mb-4
+          .bg-degrade-azul.tarjeta.py-4.mb-2
+            h4.mb-0.text-white.text-center Transistor como <em>switch</em>
+          figure
+            img(src='@/assets/curso/tema4-3-tarj2.svg', alt='Transistor como switch')   
+        .col-md-3
+          .bg-degrade-verde.tarjeta.py-4.mb-2
+            h4.text-white.mb-0.text-center Circuito físico    
+          figure
+            img(src='@/assets/curso/tema4-3-tarj3.svg', alt='Circuito físico ')   
 
     p.mb-5(data-aos="fade") Así, por ejemplo, al referirse a la compuerta lógica AND se debe analizar su comportamiento; lo que debe hacer, para luego implementar el circuito. Lo primero es analizar su tabla de verdad, la función “y” dice que dada dos condiciones se deben cumplir ambas para que sea verdad. En la vida real sería algo así como: “Si viene mi hermana y viene mi tía, visitaré a mi mamá” esto quiere decir que para que la salida (visitar a mi mamá) suceda o sea verdad deben cumplirse ambas condiciones (ambas verdaderas), venir mi hermana y venir mi tía, con una sola de ellas, no iré. Esta representación puede hacerse de forma electrónica de la siguiente manera:
 
     .row.justify-content-center.mb-0
       .col-md-10
+        p.mb-3 <b>Figura 9.</b> Representación del ejemplo de entradas y salidas
         .row.borde-botones
           h4.text-center.text-white.bg-botones1.py-1 Representación del ejemplo de entradas y salidas
           .row.justify-content-center
@@ -197,7 +202,7 @@
                   img(src='@/assets/curso/tema4-3-hermanas.svg', alt='Imagen decorativa') 
                 .col-md-6.text-white.p-4
                   .bg-degrade-azul.tarjeta.neg--left.mb-4.z-1.py-3
-                    p.pad-left ENTRADAS: A Viene mi hermana. B viene mi tía. Pueden tener dos valores posibles, si viene (V). No viene (F).
+                    p.pad-left ENTRADAS - A. Viene mi hermana. B. Viene mi tía. Pueden tener dos valores posibles, si viene (V). No viene (F).
                     p.mb-0.pad-left SALIDA: dos estados posibles: Si voy (V). No voy (F). 
                   .row 
                     img(src='@/assets/curso/tema4-3-tabla1.svg' alt='Tabla entradas y salidas', style="width: 300px; margin: 0 auto;")  
@@ -212,6 +217,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-10
+        p.mb-3 <b>Figura 10.</b> Representación de una compuerta lógica y el circuito con transistores para una compuerta AND
         .row.borde-botones
           h4.text-center.text-white.bg-botones1.py-1 Representación de una compuerta lógica y el circuito con transistores para una compuerta AND
           .row.justify-content-center.py-4.px-3
@@ -245,6 +251,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-10
+        p.mb-2 <b>Figura 11.</b> Compuerta AND y su simbología
         .row.borde-botones.justify-content-around.py-4.px-3
             .col-md-4
               h5.mb-3.text-center Tabla de verdad
@@ -259,7 +266,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-10
-        h4 Análisis para la función lógica “O”
+        p.mb-3 <b>Tabla 1.</b> Análisis para la función lógica “O”
         .row.justify-content-center
           .col-md-5
             figure

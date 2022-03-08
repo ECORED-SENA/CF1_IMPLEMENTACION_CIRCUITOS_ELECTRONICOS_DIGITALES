@@ -28,7 +28,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.1. Normas IPC
 
-    p.mb-5(data-aos="fade") El IPC (Association Connecting Electronics Industries), fundado en 1957, es una asociación mundial de participantes de la industria electrónica conformada por diseñadores, fabricantes, ensambladores de productos electrónicos, entidades de gobierno e instituciones educativas. Las normas IPC están orientadas a las buenas prácticas en el diseño de productos electrónicos. Este tipo de normas da las pautas para lograr un producto de calidad. A continuación, se presentan algunas de ellas a tener en cuenta.
+    p.mb-5(data-aos="fade") El IPC (<em>Association Connecting Electronics Industries</em>), fundado en 1957, es una asociación mundial de participantes de la industria electrónica conformada por diseñadores, fabricantes, ensambladores de productos electrónicos, entidades de gobierno e instituciones educativas. Las normas IPC están orientadas a las buenas prácticas en el diseño de productos electrónicos. Este tipo de normas da las pautas para lograr un producto de calidad. A continuación, se presentan algunas de ellas a tener en cuenta.
 
     .row
       .h3.text-center.mb-4(data-aos="fade-down") Normas de aceptabilidad
@@ -49,7 +49,7 @@
       .col-md-4.col-6l.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul1
-            p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, <em>Through-Hole Technology</em>) huecos pasantes, (SMT, <em>Surface-Mount technology</em>) montaje superficial. 
+            p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, <em>Through-Hole Technology</em>) huecos pasantes, (SMT, <em>Surface-Mount Technology</em>) montaje superficial. 
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC 2221   
@@ -114,31 +114,31 @@
     .titulo-segundo.color-acento-contenido
       h2 1.2. Normas IEEE
 
-    p.mb-4(data-aos="fade") Las normas IEEE (Institute of Electrical and Electronic - Instituto de Ingenieros Eléctricos y Electrónicos), son el resultado de la unión del trabajo de compañías dedicadas a la ingeniería y a la ciencia a nivel mundial. En la siguiente figura se evidencia su trayectoria.
+    p.mb-4(data-aos="fade") Las normas IEEE (<em>Institute of Electrical and Electronic</em> - Instituto de Ingenieros Eléctricos y Electrónicos), son el resultado de la unión del trabajo de compañías dedicadas a la ingeniería y a la ciencia a nivel mundial. En la siguiente figura se evidencia su trayectoria.
 
     .row.justify-content-center.mb-4
       .col-md-10
-        .h4.mb-2 Figura 1
+        p.mb-2 <b>Figura 1.</b> <em>Institute of Electrical and Electronic</em>
         .row.borde-botones
           h4.text-center.text-white.bg-botones1.py-1 Institute of Electrical and Electronic
           .row.justify-content-center
             .col-md-10.py-3
               figure
-                img(src='@/assets/curso/tema1-fig2.svg', alt='Estándares IEEE para redes inalámbricas')
-              p.text-center Cada estándar representa a la tecnología optimizada para distintas necesidades  
+                img(src='@/assets/curso/tema1-fig1.svg', alt='Estándares IEEE para redes inalámbricas')
+              
 
     p.mb-4(data-aos="fade") Los estándares IEEE son muy amplios, pues existen tantas normas que no es práctico citarlas en este documento, se debe tener claridad sobre lo que se quiere implementar y consultar la norma apropiada, tal como se muestra en la siguiente figura. 
 
     .row.justify-content-center.mb-5
       .col-md-10
-        .h4.mb-2 Figura 2
+        p.mb-2 <b>Figura 2.</b> <em>Estándares IEEE para redes inalámbricas</em>
         .row.borde-botones
           h4.text-center.text-white.bg-botones1.py-1 Estándares IEEE para redes inalámbricas
           .row.justify-content-center
             .col-md-10.py-4
               figure
-                img(src='@/assets/curso/tema1-fig1.svg', alt='Estándares IEEE para redes inalámbricas')
-
+                img(src='@/assets/curso/tema1-fig2.svg', alt='Estándares IEEE para redes inalámbricas')
+              p.text-center Cada estándar representa a la tecnología optimizada para distintas necesidades  
 
     Separador
 
@@ -164,7 +164,7 @@
           .col-md-10.py-3
             p.mb-0 Las normas ISO son más aplicables al proceso de fabricación y es ahí precisamente donde más cuidado se debe tener. Si se trata de un proceso de producción en serie, es necesario aplicar la siguiente normatividad:
     
-    p.mb-5(data-aos="fade") ISO 9001, TL9000 y ESD S20.20: estas normas ofrecen un sistema de gestión de calidad en  electrónica y  telecomunicaciones. También identifica requisitos específicos para proveedores del área. La norma ANSI/ESD S20.20 se centra en los componentes electrónicos utilizados en las telecomunicaciones y establece los controles para proteger a los elementos y dispositivos de las descargas electrostáticas.
+    p.mb-5(data-aos="fade") <b>ISO 9001, TL9000 y ESD S20.20:</b> estas normas ofrecen un sistema de gestión de calidad en  electrónica y  telecomunicaciones. También identifica requisitos específicos para proveedores del área. La norma ANSI/ESD S20.20 se centra en los componentes electrónicos utilizados en las telecomunicaciones y establece los controles para proteger a los elementos y dispositivos de las descargas electrostáticas.
 
     .row.hover-tema1-3.tema-1-fondo2.justify-content-center.mb-5
       .col-md-8.tarjeta.bg-primario1.text-white.mb-4.py-3

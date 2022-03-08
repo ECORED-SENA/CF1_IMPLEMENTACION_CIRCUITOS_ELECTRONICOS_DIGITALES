@@ -19,7 +19,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10.bg-contenido3.py-4.px-3.px-md-4
-        p.mb-0 En los circuitos digitales es muy probable que se usen solo algunas de estas magnitudes, como puede ser la intensidad de corriente y la diferencia de potencial. En realidad, de lo que trata la electrónica digital, es darle aplicación al álgebra booleana que consiste en analizar dos posible valores que, en el caso de estas magnitudes, puede ser la ausencia o presencia de ellos, es decir, presencia de la diferencia de potencial o ausencia de este; lo mismo aplica para la corriente. 
+        p.mb-0 En los circuitos digitales es muy probable que se usen solo algunas de estas magnitudes, como puede ser la intensidad de corriente y la diferencia de potencial. En realidad, de lo que trata la electrónica digital, es darle aplicación al álgebra booleana que consiste en analizar dos posibles valores que, en el caso de estas magnitudes, puede ser la ausencia o presencia de ellos, es decir, presencia de la diferencia de potencial o ausencia de este; lo mismo aplica para la corriente. 
 
     .row.justify-content-center
       .col-md-8.bg-degrade-azul
@@ -41,6 +41,7 @@
     p.mb-5(data-aos="fade") La siguiente figura muestra cada una de las magnitudes eléctricas, así como las unidades empleadas para medirlas.
 
     .row.justify-content-center
+      p.mb-2 <b>Figura 4.</b> <em>Magnitudes eléctricas</em>
       h3.text-center.mb-4 Magnitudes eléctricas
       figure.mb-4
         img(src='@/assets/curso/tema3-1-tabla.svg', alt='Magnitudes eléctricas')
@@ -60,10 +61,10 @@
       .col-md-6
         .row.justify-content-center
           .col-lg-12(data-aos="fade-right")
-            p Para el caso de la electrónica digital estos parámetros se limitan a darle una representación a los dos estados concebidos en el álgebra de Boole. Estado on/off o encendido/apagado, o simplemente “1” para encendido (on) y “0” para apagado (off).
+            p Para el caso de la electrónica digital estos parámetros se limitan a darle una representación a los dos estados concebidos en el álgebra de Boole. Estado <em>on/off</em> o encendido/apagado, o simplemente “1” para encendido (<em>on</em>) y “0” para apagado (<em>off</em>).
         .row.justify-content-center.neg--right.mb-4.pt-3
           .col-lg-12.bg-degrade-azul.tarjeta.text-white.p-4
-            h5.mb-0.pad-right.pad-left2 Con la invención del transistor en los laboratorios Bell (1947), se hizo posible darle vida los sistemas digitales, ya que este elemento electrónico podría ser utilizado como un simple Switch, para encender o apagar. Fue esto lo que permitió el desarrollo de los sistemas digitales para llegar al avance tecnológico que hoy conocemos.
+            h5.mb-0.pad-right.pad-left2 Con la invención del transistor en los laboratorios Bell (1947), se hizo posible darle vida los sistemas digitales, ya que este elemento electrónico podría ser utilizado como un simple <em>switch</em>, para encender o apagar. Fue esto lo que permitió el desarrollo de los sistemas digitales para llegar al avance tecnológico que hoy conocemos.
       .col-md-4.p-0.mb-md-0.mb-3.z-999
         img(src='@/assets/curso/tema3-2-img.png' alt='Imagen decorativa')  
 
@@ -79,7 +80,7 @@
               p.px-md-2 5 voltios para el estado de encendido.
           .row.justify-content-center(titulo="Parámetros por el comportamiento físico")
             .col-md-11
-              p.mb-4 Existen unos rangos que son determinados por el mismo comportamiento físico de los componentes, su tensión de alimentación característica está comprendida entre los 4,75V y los 5,25V. Los niveles lógicos vienen definidos por el rango de tensión comprendida entre 0,0V y 0,8V para el estado  apagado (off) y los 2,2v y 5v para el estado encendido (off). 
+              p.mb-4 Existen unos rangos que son determinados por el mismo comportamiento físico de los componentes, su tensión de alimentación característica está comprendida entre los 4,75V y los 5,25V. Los niveles lógicos vienen definidos por el rango de tensión comprendida entre 0,0V y 0,8V para el estado  apagado (<em>off</em>) y los 2,2v y 5v para el estado encendido (<em>off</em>). 
               p Un valor de tensión en el rango de 0,8 a 2,2 voltios será indeterminado y dependiendo de las características del componente puede ser 0 o 1, incluso un valor oscilatorio.
           .row.justify-content-center(titulo="Parámetros para sistemas modernos")
             .col-md-11
