@@ -19,12 +19,12 @@
 
 
     p(data-aos="fade") La siguiente figura expone todo lo que implica el Sistema de Gestión de la Seguridad y Salud en el Trabajo.
+    p.mb-2 <b>Figura 3.</b> Aspectos del SGSST
 
-    .row.tarjeta.bg-gris2.justify-content-center.p-md-4.p-3.py-md-5.mb-4
+    .row.tarjeta.justify-content-center.mb-4
       figure.mb-5
-        img(src='@/assets/curso/tema2-infog1.svg', alt='Expone todo lo que implica el Sistema de Gestión de la Seguridad y Salud en el Trabajo')
-      .col-md-10.tarjeta.bg-blanco.p-3.p-md-4
-        p.mb-0 También está regulado por la Resolución 0312 de 2019; en el área de electrónica se aplica más que todo el séptimo estándar de esta resolución donde se encuentran las medidas de prevención y control frente a todos los peligros y riesgos identificados. Los riesgos al trabajar con equipos electrónicos son inherentes y se debe tener especial cuidado cuando es necesario trabajar con ellos energizados.
+        img(src='@/assets/curso/tema2-infog1-1.svg', alt='Expone todo lo que implica el Sistema de Gestión de la Seguridad y Salud en el Trabajo')
+      
 
     .row.tema2-rectangulo.justify-content-center.align-items-center.mb-4
       .col-md-7
