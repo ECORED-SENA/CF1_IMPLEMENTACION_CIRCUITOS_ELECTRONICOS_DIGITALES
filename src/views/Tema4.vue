@@ -202,8 +202,8 @@
                   img(src='@/assets/curso/tema4-3-hermanas.svg', alt='Imagen decorativa') 
                 .col-md-6.text-white.p-4
                   .bg-degrade-azul.tarjeta.neg--left.mb-4.z-1.py-3
-                    p.pad-left ENTRADAS - A. Viene mi hermana. B. Viene mi tía. Pueden tener dos valores posibles, si viene (V). No viene (F).
-                    p.mb-0.pad-left SALIDA: dos estados posibles: Si voy (V). No voy (F). 
+                    p.pad-left ENTRADAS - A. Viene mi hermana. B. Viene mi tía. Pueden tener dos valores posibles: si viene (V). No viene (F).
+                    p.mb-0.pad-left SALIDAS - Dos estados posibles: si voy (V). No voy (F). 
                   .row 
                     img(src='@/assets/curso/tema4-3-tabla1.svg' alt='Tabla entradas y salidas', style="width: 300px; margin: 0 auto;")  
               .linea-morada  
