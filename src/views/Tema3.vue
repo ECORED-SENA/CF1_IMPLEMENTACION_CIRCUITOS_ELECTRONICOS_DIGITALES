@@ -80,7 +80,7 @@
               p.px-md-2 5 voltios para el estado de encendido.
           .row.justify-content-center(titulo="Parámetros por el comportamiento físico")
             .col-md-11
-              p.mb-4 Existen unos rangos que son determinados por el mismo comportamiento físico de los componentes, su tensión de alimentación característica está comprendida entre los 4,75V y los 5,25V. Los niveles lógicos vienen definidos por el rango de tensión comprendida entre 0,0V y 0,8V para el estado  apagado (<em>off</em>) y los 2,2v y 5v para el estado encendido (<em>off</em>). 
+              p.mb-4 Existen unos rangos que son determinados por el mismo comportamiento físico de los componentes, su tensión de alimentación característica está comprendida entre los 4,75V y los 5,25V. Los niveles lógicos vienen definidos por el rango de tensión comprendida entre 0,0V y 0,8V para el estado  apagado (<em>off</em>) y los 2,2v y 5v para el estado encendido (<em>on</em>). 
               p Un valor de tensión en el rango de 0,8 a 2,2 voltios será indeterminado y dependiendo de las características del componente puede ser 0 o 1, incluso un valor oscilatorio.
           .row.justify-content-center(titulo="Parámetros para sistemas modernos")
             .col-md-11
