@@ -106,7 +106,7 @@
       .col-md-10
         PasosA.color-acento-botones(tipo="n")
           .row.align-items-center
-            .col-md-2.mb-4.mb-md-0
+            .col-md-2.col-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema4-paso1.svg', alt='National Instruments')
             .col-md-10
@@ -116,11 +116,11 @@
             .col-md-9.mb-4.mb-md-0
               h4 Microchips
               p Además de los componentes electrónicos digitales, esta empresa se especializa en la fabricación de microcontroladores y también en el desarrollo de las aplicaciones para la programación de los mismos, su software se puede usar de forma gratuita.
-            .col-md-3
+            .col-md-3.col-6
               figure
                 img(src='@/assets/curso/tema4-paso2.svg', alt='Microchips')
           .row.align-items-center
-            .col-md-2.mb-4.mb-md-0
+            .col-md-2.col-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema4-paso3.svg', alt='Motorola')
             .col-md-10
@@ -130,7 +130,7 @@
             .col-md-10.mb-4.mb-md-0
               h4 IBM
               p Este fabricante está centrado en la industria informática.
-            .col-md-2
+            .col-md-2.col-6
               figure
                 img(src='@/assets/curso/tema4-paso4.svg', alt='IBM')
 

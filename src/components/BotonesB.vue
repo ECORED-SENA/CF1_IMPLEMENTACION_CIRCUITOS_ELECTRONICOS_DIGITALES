@@ -1,7 +1,7 @@
 <template lang="pug">
 .btns
-  .row.justify-content-center
-    .col-md-8
+  .row.justify-content-center.img-fondo
+    .col-md-8.img-fondo-2
       img(src='@/assets/curso/tema1-fondo-botones.svg', alt='El proceso de los servicios PHP')
   .btns__item(
     v-for="(boton, index) in botones"
@@ -112,28 +112,32 @@ export default {
     height: 295px
     transform: translate(-50%)
 @media (max-width: $bp-max-md)
+  .img-fondo
+    float: right
+    width: 90%
   .btns__item
-    width: 3.5% !important
-    padding: 3.5%
+    width: 8% !important
+    padding: 8%
 
   .btns_item--0
-    top: 22% !important
-    left: 25.1% !important
+    top: -0.6% !important
+    left: 8.3% !important
   .btns_item--1
-    top: 22% !important
-    left: 46% !important
+    top: -0.6% !important
+    left: 45% !important
   .btns_item--2
-    top: 22% !important
-    left: 67% !important
+    top: -0.6% !important
+    left: 80.3% !important
 
   .btns__text
-    width: 320px
+    width: 400px
+    height: 350px
   .btns_item--0 .btns__text
-    left: 180% !important
+    left: 190% !important
   .btns_item--1 .btns__text
     left: 90%
   .btns_item--2 .btns__text
-    left: 10%
+    left: -120%
 @media (min-width: $bp-min-xxl)
   .btns
     height: 575px

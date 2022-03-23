@@ -46,7 +46,7 @@
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj1.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC-7711/21
-      .col-md-4.col-6l.mb-4
+      .col-md-4.col-6.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul1
             p.text-white Esta norma establece reglas de  diseño de PCB. Está dentro de las normas más  usadas, incluye el ensamble de los componentes, tipo (THT, <em>Through-Hole Technology</em>) huecos pasantes, (SMT, <em>Surface-Mount Technology</em>) montaje superficial. 
@@ -68,21 +68,21 @@
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj4.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC D-325      
-      .col-md-4.col-6.mb-4
+      .col-md-4.col-12.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-verde
             p.text-white Requisitos genéricos para el diseño SMD y estándar para el diseño de las pistas de soldadura, esta norma es muy importante ya que establece las reglas de diseño para los conductores en la placa, además en su versión digital, incluye una calculadora que facilita la creación de las pistas, indicando grosor, tamaño y otros parámetros.
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj1.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC-7351B
-      .col-md-4.col-6.mb-4
+      .col-md-4.col-12.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul1
             p.text-white Guía para el diseño de PCB  utilizadas en radiofrecuencia y microondas. Cuando el equipo electrónico incluye radiofrecuencia, es necesario un tratamiento especial, esta norma establece las reglas para garantizar un funcionamiento confiable en este tipo de dispositivos.
           .caras.justify-content-center
             img.mb-4(src="@/assets/curso/tema1-1-tarj2.png" style="width:60px; margin: 0 auto")
             h3.color-acento-botones.text-center IPC-2252
-      .col-md-12.col-11.mb-4
+      .col-md-12.col-12.mb-4
         .tarjetas-tema-1-1.tarjeta-1
           .caras.tarjeta-azul2
             p.mb-3.text-white Guía de diseño para el empaquetado de circuitos electrónicos de alta velocidad. Los circuitos de alta velocidad, también están relacionados con la frecuencia, pero en este caso está referida al funcionamiento interno de un chip, es así como un procesador o una memoria, están dentro de esta categoría, por lo tanto, el empaquetado o carcaza del componente debe cumplir con unos estándares para evitar pérdida de datos por mal montaje y por consiguiente mal funcionamiento del producto donde se utilice.
