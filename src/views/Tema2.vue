@@ -37,7 +37,7 @@
     
     p(data-aos="fade") Ahora bien, las condiciones de seguridad en el trabajo están referidas a cualquier aspecto del trabajo que derive en consecuencias negativas para la salud del trabajador; se deben tener en cuenta aspectos ambientales y tecnológicos, así como también las disposiciones de la organización.
 
-    p.mb-5(data-aos="fade") En trabajos con electricidad el riesgo es inherente y se deben aplicar todos los procedimientos para evitar daños a la salud de los trabajadores. De lo contrario, esto podría terminar en un evento infortunado, tal como se explica a continuación. 
+    p.mb-5(data-aos="fade") En trabajos con electricidad el riesgo es inherente y se deben aplicar todos los procedimientos para evitar daños a la salud de los trabajadores. De lo contrario, esto podría terminar en un evento infortunado, tal como se explica a continuación: 
 
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="fade-down")
@@ -75,7 +75,7 @@
       
       .tarjeta.bg-blanco.borde-morado.p-3(x="69%" y="65%" numero="+")
         .h4.mb-2 Otras protecciones del cuerpo
-        p.mb-0 También existen protectores de la piel como cremas de protección contra radiaciones por trabajo al aire libre; protectores del tronco y el abdomen, chalecos, chaquetas y cotonas de protección contra las riesgo mecánico, químico, resistentes a la temperatura, chalecos salvavidas, delantales de protección contra los rayos x, cinturones de sujeción del tronco, equipos de protección contra las caídas distinto nivel tipo arnés, cinturones de posicionamiento, dispositivos de caídas de tipo deslizante, dispositivos con amortiguador, ropa de protección contra proyecciones de metales en fusión y radiaciones infrarrojas.
+        p.mb-0 También existen protectores de la piel como cremas de protección contra radiaciones por trabajo al aire libre; protectores del tronco y el abdomen, chalecos, chaquetas y cotonas de protección contra el riesgo mecánico, químico, resistentes a la temperatura, chalecos salvavidas, delantales de protección contra los rayos x, cinturones de sujeción del tronco, equipos de protección contra las caídas distinto nivel tipo arnés, cinturones de posicionamiento, dispositivos de caídas de tipo deslizante, dispositivos con amortiguador, ropa de protección contra proyecciones de metales en fusión y radiaciones infrarrojas.
 
       .tarjeta.bg-blanco.borde-morado.p-3(x="69%" y="89%" numero="+")
         .h4.mb-2 Protección para piernas

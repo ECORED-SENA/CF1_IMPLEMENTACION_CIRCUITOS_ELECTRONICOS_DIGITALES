@@ -127,7 +127,7 @@
                 img(src='@/assets/curso/tema1-fig1.svg', alt='Estándares IEEE para redes inalámbricas')
               
 
-    p.mb-4(data-aos="fade") Los estándares IEEE son muy amplios, pues existen tantas normas que no es práctico citarlas en este documento, se debe tener claridad sobre lo que se quiere implementar y consultar la norma apropiada, tal como se muestra en la siguiente figura. 
+    p.mb-4(data-aos="fade") Los estándares IEEE son muy amplios, pues existen tantas normas que no es práctico citarlas en este documento, se debe tener claridad sobre lo que se quiere implementar y consultar la norma apropiada, tal como se muestra en la siguiente figura: 
 
     .row.justify-content-center.mb-5
       .col-md-10

@@ -55,7 +55,7 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2. Parámetros eléctricos
 
-    p.mb-4(data-aos="fade") La parametrización de las unidades electrónicas referidas a la electrónica digital se limita a valores relativamente bajos, es así como en tensión se habla de valores de 5V, 3.3V y solo en casos especiales se utilizan 10 y 12 voltios.  
+    p.mb-4(data-aos="fade") La parametrización de las unidades electrónicas referidas a la electrónica digital se limita a valores relativamente bajos, es así como en tensión se habla de valores de 5 V, 3.3 V y solo en casos especiales se utilizan 10 y 12 voltios.  
 
     .row.justify-content-center.align-items-center.mb-5      
       .col-md-6
@@ -80,14 +80,14 @@
               p.px-md-2 5 voltios para el estado de encendido.
           .row.justify-content-center(titulo="Parámetros por el comportamiento físico")
             .col-md-11
-              p.mb-4 Existen unos rangos que son determinados por el mismo comportamiento físico de los componentes, su tensión de alimentación característica está comprendida entre los 4,75V y los 5,25V. Los niveles lógicos vienen definidos por el rango de tensión comprendida entre 0,0V y 0,8V para el estado  apagado (<em>off</em>) y los 2,2v y 5v para el estado encendido (<em>on</em>). 
+              p.mb-4 Existen unos rangos que son determinados por el mismo comportamiento físico de los componentes, su tensión de alimentación característica está comprendida entre los 4,75 V y los 5,25 V. Los niveles lógicos vienen definidos por el rango de tensión comprendida entre 0,0 V y 0,8 V para el estado  apagado (<em>off</em>) y los 2,2 V y 5 V para el estado encendido (<em>on</em>). 
               p Un valor de tensión en el rango de 0,8 a 2,2 voltios será indeterminado y dependiendo de las características del componente puede ser 0 o 1, incluso un valor oscilatorio.
           .row.justify-content-center(titulo="Parámetros para sistemas modernos")
             .col-md-11
-              p.mb-4 Para los sistemas modernos y chips de alta velocidad, la tensión de trabajo es de 3,3V, esto es debido a la alta velocidad de procesamiento y a la incorporación de nuevos materiales en el proceso de fabricación de los componentes. Incluso este nivel de tensión puede ser modificado en tiempo real para lograr nuevas velocidades de procesamiento.
+              p.mb-4 Para los sistemas modernos y chips de alta velocidad, la tensión de trabajo es de 3,3 V, esto es debido a la alta velocidad de procesamiento y a la incorporación de nuevos materiales en el proceso de fabricación de los componentes. Incluso este nivel de tensión puede ser modificado en tiempo real para lograr nuevas velocidades de procesamiento.
           .row.justify-content-center(titulo="Parámetros de frecuencia eléctrica")
             .col-md-11
-              p.mb-4 Este es precisamente el otro parámetro muy utilizado en los sistemas electrónicos digitales, la frecuencia eléctrica. Se mide en Hertz también en honor a su descubridor el físico alemán Heinrich Rudolf Hertz. Se refiere a cuántas veces cambia un parámetro de en la unidad de tiempo, para el caso de los sistemas digitales se refiere más que todo a cuantas instrucciones por segundo procesa el dispositivo electrónico. La siguiente tabla muestra esta relación en los primeros procesadores.
+              p.mb-4 Este es precisamente el otro parámetro muy utilizado en los sistemas electrónicos digitales, la frecuencia eléctrica. Se mide en Hertz también en honor a su descubridor el físico alemán Heinrich Rudolf Hertz. Se refiere a cuántas veces cambia un parámetro en la unidad de tiempo, para el caso de los sistemas digitales se refiere más que todo a cuantas instrucciones por segundo procesa el dispositivo electrónico. La siguiente tabla muestra esta relación en los primeros procesadores.
               .tabla-a.color-acento-botones.mb-5 
                 table
                   thead.bg-botones1  
@@ -160,7 +160,7 @@
               .col-md-6.mb-4.mb-md-0
                 h4 Diferencia de potencial eléctrico
                 p Es la fuerza con la que los electrones se mueven a través de un conductor eléctrico y definida en una sola palabra “fuerza”. Normalmente está contenida en un elemento, como es el caso de una pila o batería, o una fuente de poder, para nuestro uso será siempre necesario transformar una forma de energía a diferencia de potencial.
-                p Un ejemplo de ello es la energía hidráulica, contenida en forma de energía potencial en una agua estancada a una altura determinada, al liberarla y hacerla pasar por una turbina, se convierte esa rotación, en electricidad utilizando el principio del dinamo. También en un hidrocarburo que al quemarse libera la energía contenida en él. Existen muchas formas de energía, unas más limpias que otras, pero un análisis permite determinar, que todas ellas son originadas por el Sol, esa es nuestra mayor fuente de energía.
+                p Un ejemplo de ello es la energía hidráulica, contenida en forma de energía potencial en agua estancada a una altura determinada, al liberarla y hacerla pasar por una turbina, se convierte esa rotación, en electricidad utilizando el principio del dinamo. También en un hidrocarburo que al quemarse libera la energía contenida en él. Existen muchas formas de energía, unas más limpias que otras, pero un análisis permite determinar, que todas ellas son originadas por el Sol, esa es nuestra mayor fuente de energía.
           .py-3.py-md-4(titulo="La intensidad de corriente eléctrica ")
             .row.justify-content-center
               .col-md-5
@@ -186,7 +186,7 @@
                 h4 Frecuencia eléctrica 
                 p Es el número de veces que cambia un parámetro de una magnitud eléctrica.     
 
-    p.mb-5(data-aos="fade") Estas son las magnitudes que más se estarán usando en este componente formativo. Una analogía visible para este fenómeno físico es el agua circulando por una tubería, donde la bomba que impulsa el agua representa a la batería o fuente de poder; la fuerza con la que empuja la bomba el agua, es la diferencia de potencial; la cantidad de agua que pasa por la tubería es la intensidad de corriente eléctrica y la oposición ejercida por el tubo al paso del agua, es la resistencia, tal como se aprecia en la siguiente figura.
+    p.mb-5(data-aos="fade") Estas son las magnitudes que más se estarán usando en este componente formativo. Una analogía visible para este fenómeno físico es el agua circulando por una tubería, donde la bomba que impulsa el agua representa a la batería o fuente de poder; la fuerza con la que empuja la bomba el agua, es la diferencia de potencial; la cantidad de agua que pasa por la tubería es la intensidad de corriente eléctrica y la oposición ejercida por el tubo al paso del agua, es la resistencia, tal como se aprecia en la siguiente figura:
 
     h4.text-center.py-1 Analogía del flujo de agua
     .row.justify-content-center.mb-0

@@ -8,7 +8,7 @@
         span 4
       h1 Componentes electrónicos digitales
 
-    p.mb-5(data-aos="fade") Los componentes electrónicos digitales comenzaron a surgir con el desarrollo de la electrónica desde la invención del transistor, estos han venido evolucionando de manera vertiginosa, tanto así, que los primeros componentes desarrollados, y que en su momento tuvieron amplia aplicación, ya son poco utilizados. El desarrollo de estos componentes está basado en el funcionamiento del transistor y se les conoce como compuertas lógicas, ya que basan su funcionamiento en la representación física de la lógica booleana, tal como se observa en la siguiente figura.
+    p.mb-5(data-aos="fade") Los componentes electrónicos digitales comenzaron a surgir con el desarrollo de la electrónica desde la invención del transistor, estos han venido evolucionando de manera vertiginosa, tanto así, que los primeros componentes desarrollados, y que en su momento tuvieron amplia aplicación, ya son poco utilizados. El desarrollo de estos componentes está basado en el funcionamiento del transistor y se les conoce como compuertas lógicas, ya que basan su funcionamiento en la representación física de la lógica booleana, tal como se observa en la siguiente figura:
 
     h4 Compuerta lógica y su simbología
 
@@ -151,7 +151,7 @@
 
     p(data-aos="fade") Otra característica importante es su flexibilidad para cambiar funciones, es decir que un cambio en el sistema controlado no lleva a mayores inversiones en el dispositivo controlador, en algunos casos solo es suficiente con cambiar un código en la programación.
 
-    p.mb-5(data-aos="fade") Ahora bien, si se hace referencia solo a las compuertas lógicas, se tienen, dentro de otras, las siguientes características.
+    p.mb-5(data-aos="fade") Ahora bien, si se hace referencia solo a las compuertas lógicas, se tienen, dentro de otras, las siguientes características:
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
@@ -166,7 +166,7 @@
     .titulo-segundo.color-acento-contenido
       h2 4.3. Funcionamiento
 
-    p.mb-5(data-aos="fade") Los dispositivos electrónicos digitales basan su funcionamiento en la electrónica, puntualmente en el funcionamiento del transistor como un <em>switch</em>, es decir que el transistor puede usarse como apagado o encendido, representando los dos estados de la lógica booleana. Integrando varios dispositivos se puede ir armando los dispositivos que representan la lógica booleana, tal como se representa a continuación.         
+    p.mb-5(data-aos="fade") Los dispositivos electrónicos digitales basan su funcionamiento en la electrónica, puntualmente en el funcionamiento del transistor como un <em>switch</em>, es decir que el transistor puede usarse como apagado o encendido, representando los dos estados de la lógica booleana. Integrando varios dispositivos se puede ir armando los dispositivos que representan la lógica booleana, tal como se representa a continuación:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-9

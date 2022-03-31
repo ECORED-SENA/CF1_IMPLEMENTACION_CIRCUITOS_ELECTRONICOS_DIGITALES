@@ -84,7 +84,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Componentes electrónicas digitales',
+        titulo: 'Componentes electrónicos digitales',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -111,7 +111,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
